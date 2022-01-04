@@ -10,7 +10,7 @@ items:
   spec:
     providerSpec:
       value:
-        apiVersion: baremetalproviderspec/v1alpha3
+        apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
           address: 172.17.0.3
@@ -28,7 +28,7 @@ items:
   spec:
     providerSpec:
       value:
-        apiVersion: baremetalproviderspec/v1alpha3
+        apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
           address: 172.17.0.4
